@@ -1,6 +1,8 @@
 # Entity Type
 
-Hibernate, however, is not as strict in its requirements. The differences from the list above include:
+The entity class must be annotated with the javax.persistence.Entity annotation (or be denoted as such in XML mapping)
+
+An enum or interface may not be designated as an entity.
 
 The entity class must have a no-argument constructor, which may be public, protected or package visibility. 
 It may define additional constructors as well.
